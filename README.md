@@ -13,10 +13,9 @@ O projeto está estruturado em vários módulos principais:
 * **Mediçao de velocidade:** Mede a velocidade que cada algoritmo levou para realizar a tarefa.
 * **Calculo da razao:** Mede quantas vezes o mais rapido foi que o mais lento.
 
-### 2. Pasta [Resultados](../Resultados) <- Analise de resultados do codigo acima.
-* **[RESULTADOS.md:](../RESULTADOS.md)** markdow explicando o porque da superioridade do Bitonic Sort na GPU.
-* **[Grafico:](GraficoBitonicSort-VS-QuickSort.png)** Grafico mostrando o tempo que cada Sort demorou para concluir a tarefa.
-
+### 2. Pasta [Resultados](Resultados) <- Analise de resultados do codigo acima.
+* **[RESULTADOS.md:](Resultados/RESULTADOS.md)** markdow explicando o porque da superioridade do Bitonic Sort na GPU.
+* **[Grafico:](Resultados/GraficoBitonicSort-VS-QuickSort.png)** Grafico mostrando o tempo que cada Sort demorou para concluir a tarefa.
 ---
 
 ## Tecnologias e Conceitos Aplicados
