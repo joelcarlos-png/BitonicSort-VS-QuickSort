@@ -1,6 +1,6 @@
-# Análise de resultados observados em [NotebookColab](.NotebookColab.ipynb)
+# Análise de resultados observados em [NotebookColab](../NotebookColab.ipynb)
 
-Ao compilar o codigo em "[NotebookColab.ipynb](.NotebookColab.ipynb)" observamos que a velocidade que cada Sort
+Ao compilar o codigo em "[NotebookColab.ipynb](../NotebookColab.ipynb)" observamos que a velocidade que cada Sort
 ordena uma lista de 1.048.576 elementos é variavel, mas em geral o Bitonic Sort realizado com o poder da GPU é
 bem mais rapido que o Quick sort realizado na CPU, isso acontece devido ao seguinte:
 
