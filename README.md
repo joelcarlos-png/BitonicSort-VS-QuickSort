@@ -8,16 +8,16 @@ Este tem o intuito de comparação entre o paralelismo de uma GPU vs. a velocida
 
 O projeto está estruturado em vários módulos principais:
 
-### 1. [NotebookColab](https://www.google.com/search?q=NotebookColab.ipynb) <- Código do Bitonic Sort e Quick Sort.
+### 1. [NotebookColab](NotebookColab.ipynb) <- Código do Bitonic Sort e Quick Sort.
 
 * **Ordenação de lista:** Quantidade de uma lista de 1.048.576 elementos escolhida para estressar CPU e GPU.
 * **Medição de velocidade:** Mede a velocidade que cada algoritmo levou para realizar a tarefa.
 * **Cálculo da razão:** Mede quantas vezes o mais rápido foi que o mais lento.
 
-### 2. Pasta [Resultados](https://www.google.com/search?q=Resultados) <- Análise de resultados do código acima.
+### 2. Pasta [Resultados](Resultados) <- Análise de resultados do código acima.
 
-* **[RESULTADOS.md:](https://www.google.com/search?q=Resultados/RESULTADOS.md)** Markdown explicando o porquê da superioridade do Bitonic Sort na GPU.
-* **[Gráfico:](https://www.google.com/search?q=Resultados/GraficoBitonicSort-VS-QuickSort.png)** Gráfico mostrando o tempo que cada sort demorou para concluir a tarefa.
+* **[RESULTADOS.md:](Resultados/RESULTADOS.md)** Markdown explicando o porquê da superioridade do Bitonic Sort na GPU.
+* **[Grafico:](Resultados/GraficoBitonicSort-VS-QuickSort.png)** Gráfico mostrando o tempo que cada sort demorou para concluir a tarefa.
 
 ---
 
