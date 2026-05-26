@@ -76,7 +76,7 @@ Para testar qualquer uma das estruturas, siga os passos abaixo:
 
 Desenvolvido por **Joel Carlos** e **Bryan Cruz**
   * LinkedIn Joel: [www.linkedin.com/in/joelcarlosassuncaopadilha](https://www.linkedin.com/in/joelcarlosassuncaopadilha/)
-  * GitHub Joel: [https://github.com/joelcarlosap321-png](https://github.com/joelcarlosap321-png)
+  * GitHub Joel: https://github.com/joelcarlos-png
   * =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   * LinkedIn Bryan: [www.linkedin.com/in/joelcarlosassuncaopadilha](https://www.linkedin.com/in/bryanmarquescruz/)
   * GitHub Bryan: [https://github.com/joelcarlosap321-png](https://github.com/bryantlanta-alt)
