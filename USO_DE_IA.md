@@ -23,7 +23,8 @@ O Bitonic Sort é um Sorting Network (Rede de Ordenação).
 Como funciona: Ele foca em criar 'sequências bitônicas' (uma sequência que cresce e depois diminui). Através de várias
 etapas de comparação e troca (compare-and-swap), ele transforma essas sequências em uma única lista ordenada.
 Por que no GPU? Diferente do Quicksort, o Bitonic Sort faz as mesmas comparações independentemente dos valores dos dados.
-Isso significa que as threads da GPU podem trabalhar de forma perfeitamente sincronizada, sem que uma thread precise esperar a decisão de outra.
+Isso significa que as threads da GPU podem trabalhar de forma perfeitamente sincronizada, sem que uma thread precise esperar
+ a decisão de outra.
 O que você precisará de CUDA para o Bitonic Sort
 Para implementar o Bitonic Sort, você precisará ir além do printf. Aqui estão os novos conceitos de sintaxe e arquitetura:
 
