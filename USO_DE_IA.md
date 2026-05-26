@@ -48,5 +48,41 @@ Isso é fundamental para calcular os índices de comparação baseados no thread
 Como o Bitonic Sort tem várias passagens, você frequentemente chamará o Kernel várias vezes de dentro de um loop no main() (CPU),
 ou usará loops complexos dentro da GPU."
 ````
+----
+## Uso de ia para fazer Grafico
 
+foi usado ia para fazer o [grafico](Resultados/GraficoBitonicSort-VS-QuickSort.png) personalizado, usando novamente o
+Gemini 3.1 PRO com o seguinte promt:
 
+```text
+Resumo detalhado dos resultados do codigo:
+Descrição do Experimento: CPU vs GPU Sorting
+
+1. O Cenário:
+
+Volume de Dados: O código processou um array de 1.048.576 elementos (2^20), preenchidos com números inteiros aleatórios.
+
+Algoritmo CPU: Quick Sort (Implementação serial recursiva).
+
+Algoritmo GPU: Bitonic Sort (Implementação paralela utilizando CUDA).
+
+2. Resultados Obtidos (Performance):
+
+Tempo de Execução (CPU): 0.202804 segundos.
+
+Tempo de Execução (GPU): 0.007907 segundos (incluindo a transferência de memória e processamento paralelo).
+
+Razão de Desempenho (Speedup): A GPU foi aproximadamente 25.65x mais rápida que a CPU.
+
+3. Verificação de Integridade:
+
+Ambos os algoritmos produziram resultados idênticos, confirmando o sucesso da ordenação e a corretude da lógica paralela.
+
+4. Sugestão para o Gráfico:
+
+Tipo de Gráfico: Barras comparativas.
+
+Eixo Y: Tempo em segundos (escala logarítmica pode ser útil para destacar a diferença drástica).
+
+Anotação: Incluir o selo '25.65x Faster' sobre a barra da GPU.
+````
