@@ -51,7 +51,7 @@ Para testar qualquer uma das estruturas, siga os passos abaixo:
     git clone https://github.com/joelcarlos-png/Estrutura_de_Dados_em_C.git
     ```
 
-2.  **Acesse a pasta [NotebookColab.ipynb](../NotebookColab.ipynb):**
+2.  **Acesse o arquivo [NotebookColab.ipynb](NotebookColab.ipynb):**
 
     ```bash
     crie um arquivo.c com o codigo
