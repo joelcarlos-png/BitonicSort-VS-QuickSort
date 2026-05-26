@@ -14,4 +14,4 @@ que é combinar vários acessos na memória em uma única transação usando uma
 um pedreiro que coloca tijolos muito rapido porem em sequencia, e o Bitonic sort na GPU e como se fosse varios pedreiros
 (nesse codigo sao 512) colocando um tijolo cada um, bem mais rapido né
 
-### Grafico para melhor entendimento da superioridade do bitonic sort: [Grafico](.GraficoBitnocSort-VS-QuickSort.png)
+### Grafico para melhor entendimento da superioridade do bitonic sort: [Grafico](Resultados/GraficoBitonicSort-VS-QuickSort.png)
