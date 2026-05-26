@@ -8,7 +8,7 @@ nos ecolhemos o Bitnic Sort na GPU e o Quick Sort na CPU.
 
 O projeto está estruturado em vários módulos principais:
 
-### 1. [NotebookColab](../NotebookColab.ipynb) <- Codigo do Bitonic Sort e Quick Sort.
+### 1. [NotebookColab](NotebookColab.ipynb) <- Codigo do Bitonic Sort e Quick Sort.
 * **Ordenacao de lista:** Quantidade de uma lista 1.048.576 elementos escolhida para extressar CPU e GPU.
 * **Mediçao de velocidade:** Mede a velocidade que cada algoritmo levou para realizar a tarefa.
 * **Calculo da razao:** Mede quantas vezes o mais rapido foi que o mais lento.
@@ -36,9 +36,9 @@ O projeto está estruturado em vários módulos principais:
 ```text
 .
 ├── Resultados/              # Analise de resultados
-├── NotebookColab.ipynb/     # Implementação dos algoritmos propostos
-├── USO_DE_IA.md/            # Diz respeito a todo o uso de IA generativa no projeto
-├── LICENSE/                 # licença MIT do projeto
+├── NotebookColab.ipynb      # Implementação dos algoritmos propostos
+├── USO_DE_IA.md             # Diz respeito a todo o uso de IA generativa no projeto
+├── LICENSE                  # licença MIT do projeto
 └── README.md                # Documentação do projeto
 ````
 
