@@ -12,6 +12,6 @@ GPU usa milhares de Threads simultaneos, e tbm a logica do Bitonic Sort ajuda po
 forma estruturada, evitando que a GPU entregue dados na ordem errada, essa logica ajuda a GPU a fazer um coalescing
 que é combinar vários acessos na memória em uma única transação usando uma analogia, e como se o Quick sort fosse 
 um pedreiro que coloca tijolos muito rapido porem em sequencia, e o Bitonic sort na GPU e como se fosse varios pedreiros
-(nesse codigo sao 512) colocando um tijolo cada um, bem mais rapido né
+(nesse codigo sao 512) colocando um tijolo cada um.
 
 ### Grafico para melhor entendimento da superioridade do Bitonic sort: [Grafico](GraficoBitonicSort-VS-QuickSort.png)
