@@ -72,7 +72,7 @@ Para testar qualquer uma das estruturas, siga os passos abaixo:
 
 -----
 
-## ✍️ Autor
+## Autor
 
 Desenvolvido por **Joel Carlos** e **Bryan Cruz**
   * LinkedIn Joel: [www.linkedin.com/in/joelcarlosassuncaopadilha](https://www.linkedin.com/in/joelcarlosassuncaopadilha/)
