@@ -86,3 +86,53 @@ Eixo Y: Tempo em segundos (escala logarítmica pode ser útil para destacar a di
 
 Anotação: Incluir o selo '25.65x Faster' sobre a barra da GPU.
 ````
+Ela me retornou o seguinte script em Python:
+```text
+import matplotlib.pyplot as plt
+from matplotlib.ticker import FuncFormatter
+
+# 1. Dados do experimento
+labels = ['CPU\n(Quick Sort)', 'GPU\n(Bitonic Sort)']
+tempos = [0.202804, 0.007907]
+cores = ['#3498db', '#2ecc71']  # Azul para CPU, Verde para GPU
+
+# 2. Configuração inicial do gráfico
+plt.figure(figsize=(8, 6))
+barras = plt.bar(labels, tempos, color=cores, width=0.5)
+
+# 3. Configurando os eixos e títulos
+plt.yscale('log') # Escala logarítmica solicitada
+plt.ylabel('Tempo de Execução (segundos) - Escala Log', fontsize=12)
+plt.title('Performance de Ordenação: 1.048.576 Elementos\nCPU vs GPU', fontsize=14, fontweight='bold', pad=20)
+
+# Formata os valores do eixo Y em decimal, sem notação científica.
+plt.gca().yaxis.set_major_formatter(FuncFormatter(lambda valor, _: f'{valor:.3f}'.replace('.', ',')))
+
+# 4. Adicionando os tempos exatos sobre as barras
+for barra in barras:
+    yval = barra.get_height()
+    # Adicionando um pequeno offset multiplicativo por causa da escala logarítmica
+    plt.text(barra.get_x() + barra.get_width()/2, yval * 1.1, f'{yval:.6f}s', 
+             ha='center', va='bottom', fontsize=11, fontweight='bold')
+
+# 5. Adicionando a anotação "25.65x Faster"
+# Posicionado acima da barra da GPU (índice 1)
+plt.annotate('25.65x Faster!',
+             xy=(1, tempos[1] * 1.5),         # Ponto de destino da seta
+             xytext=(1, tempos[1] * 10),      # Posição do texto (bem acima devido ao log)
+             ha='center', fontsize=13, fontweight='bold', color='#c0392b',
+             bbox=dict(boxstyle="round,pad=0.3", edgecolor='#c0392b', facecolor='#fadbd8'),
+             arrowprops=dict(facecolor='#c0392b', shrink=0.05, width=2, headwidth=8))
+
+# 6. Ajustes visuais finais
+plt.grid(axis='y', linestyle='--', alpha=0.6)
+plt.gca().set_axisbelow(True) # Coloca a grade atrás das barras
+plt.tight_layout()
+
+# 7. Salvar e exibir
+plt.savefig('grafico_cpu_vs_gpu.png', dpi=300)
+print("Gráfico salvo como 'grafico_cpu_vs_gpu.png'")
+plt.show()
+````
+
+Baixando a biblioteca matplotlib com `pip install matplotlib` e executando o codigo, e retornado o grafico
