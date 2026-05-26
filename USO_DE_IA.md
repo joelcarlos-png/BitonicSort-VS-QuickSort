@@ -1,6 +1,6 @@
 # Uso de IA declarado
 
-Foi usado IA para desenvolvimento assistido do codigo Bitonic Sort em CUDA e tbm para o codigo do Quick sort na CPU
+Foi usado IA para desenvolvimento assistido do codigo Bitonic Sort em CUDA e também para o cédigo do Quick sort na CPU
 usei o modelo do Gemini 3.1 PRO com o seguinte prompt:
 
 ```text
