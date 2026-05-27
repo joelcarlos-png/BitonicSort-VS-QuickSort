@@ -66,7 +66,7 @@ nvcc sorts_cpu_gpu.cu -o sorts_cpu_gpu
 ```
 ---
 
-## Autor
+## Autores
 
 Desenvolvido por **Joel Carlos** e **Bryan Cruz**
 
