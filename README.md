@@ -50,7 +50,7 @@ Siga os passos abaixo:
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/joelcarlos-png/Estrutura_de_Dados_em_C.git
+git clone https://github.com/joelcarlos-png/BitonicSort-VS-QuickSort.git
 ```
 2.  **Acesse o arquivo [NotebookColab.ipynb](NotebookColab.ipynb):**
 ```bash
