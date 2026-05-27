@@ -154,3 +154,8 @@ como gráficos e slides. Sem a IA, teria sido um trabalho muito árduo e com men
 mas ela entrega um resultado muito satisfatório quando você está acompanhando e fazendo junto com o que ela propõe e implementa.
 Você sempre tem que revisar e entender o que ela está tentando passar, mas é uma ferramenta muito importante, principalmente nesse tipo
 de trabalho.
+
+## Reflexão Bryan Maques | O que fez: Relatório
+A inteligência artificial generativa foi utilizada neste trabalho apenas como uma ferramenta de apoio para a tradução técnica do resumo
+para o inglês (Abstract) e para configurar os links do GitHub no código LaTeX. O uso dessas ferramentas teve o objetivo de garantir uma 
+escrita mais clara e facilitar o acesso aos arquivos do projeto.
