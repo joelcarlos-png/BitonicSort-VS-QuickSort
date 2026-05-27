@@ -51,7 +51,7 @@ ou usará loops complexos dentro da GPU."
 
 ---
 
-## Uso de IA para fazer Gráfico
+### Uso de IA para fazer Gráfico
 
 Foi usado IA para fazer o [gráfico](Resultados/GraficoBitonicSort-VS-QuickSort.png) personalizado, usando novamente o
 Gemini 3.1 PRO com o seguinte prompt:
@@ -140,3 +140,17 @@ plt.show()
 ```
 
 Baixando a biblioteca matplotlib com `pip install matplotlib` e executando o código, é retornado o gráfico.
+
+### Uso de IA nos Slides
+
+Eu usei duas IAs: o Notebook lm para pegar inspiração para os slides e o GPT-5.5 para criação de PNGs para o slide.
+
+Obs.: o slide foi feito por mim, porém com auxílio da IA para pequenas coisas.
+
+## Reflexão Joel Carlos | O que fez: Código principal, Slide e GitHub
+
+Eu, particularmente, digo que a IA generativa foi imprescindível tanto no desenvolvimento do código como na parte visual,
+como gráficos e slides. Sem a IA, teria sido um trabalho muito árduo e com menor qualidade. A IA ainda comete muitos erros,
+mas ela entrega um resultado muito satisfatório quando você está acompanhando e fazendo junto com o que ela propõe e implementa.
+Você sempre tem que revisar e entender o que ela está tentando passar, mas é uma ferramenta muito importante, principalmente nesse tipo
+de trabalho.
