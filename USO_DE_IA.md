@@ -1,11 +1,11 @@
 # Uso de IA declarado
 
-Foi usado IA para desenvolvimento assistido do codigo Bitonic Sort em CUDA e também para o cédigo do Quick sort na CPU
-usei o modelo do Gemini 3.1 PRO com o seguinte prompt:
+Foi usado IA para desenvolvimento assistido do código Bitonic Sort em CUDA e também para o código do Quick Sort na CPU.
+Usei o modelo do Gemini 3.1 PRO com o seguinte prompt:
 
 ```text
-"faça um algoritmo de Bitonic sort em GPU(CUDA) e um Quick sort em CPU, ambos em C, usando essas intrucoes abaixo
-e faça os dois printar o tempo de execucao no final e mostrar a razao do mais rapido para o mais devagar
+"faça um algoritmo de Bitonic sort em GPU(CUDA) e um Quick sort em CPU, ambos em C, usando essas instruções abaixo
+e faça os dois printarem o tempo de execução no final e mostrar a razão do mais rápido para o mais devagar
 
 Comparação de Algoritmos: CPU vs GPU
 Para avançarmos no processamento paralelo, vamos implementar dois algoritmos de ordenação distintos.
@@ -24,7 +24,7 @@ Como funciona: Ele foca em criar 'sequências bitônicas' (uma sequência que cr
 etapas de comparação e troca (compare-and-swap), ele transforma essas sequências em uma única lista ordenada.
 Por que no GPU? Diferente do Quicksort, o Bitonic Sort faz as mesmas comparações independentemente dos valores dos dados.
 Isso significa que as threads da GPU podem trabalhar de forma perfeitamente sincronizada, sem que uma thread precise esperar
- a decisão de outra.
+a decisão de outra.
 O que você precisará de CUDA para o Bitonic Sort
 Para implementar o Bitonic Sort, você precisará ir além do printf. Aqui estão os novos conceitos de sintaxe e arquitetura:
 
@@ -48,14 +48,16 @@ Isso é fundamental para calcular os índices de comparação baseados no thread
 Como o Bitonic Sort tem várias passagens, você frequentemente chamará o Kernel várias vezes de dentro de um loop no main() (CPU),
 ou usará loops complexos dentro da GPU."
 ````
-----
-## Uso de ia para fazer Grafico
 
-foi usado ia para fazer o [grafico](Resultados/GraficoBitonicSort-VS-QuickSort.png) personalizado, usando novamente o
-Gemini 3.1 PRO com o seguinte promt:
+---
+
+## Uso de IA para fazer Gráfico
+
+Foi usado IA para fazer o [gráfico](Resultados/GraficoBitonicSort-VS-QuickSort.png) personalizado, usando novamente o
+Gemini 3.1 PRO com o seguinte prompt:
 
 ```text
-Resumo detalhado dos resultados do codigo:
+Resumo detalhado dos resultados do código:
 Descrição do Experimento: CPU vs GPU Sorting
 
 1. O Cenário:
@@ -85,8 +87,10 @@ Tipo de Gráfico: Barras comparativas.
 Eixo Y: Tempo em segundos (escala logarítmica pode ser útil para destacar a diferença drástica).
 
 Anotação: Incluir o selo '25.65x Faster' sobre a barra da GPU.
-````
+```
+
 Ela me retornou o seguinte script em Python:
+
 ```text
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
@@ -112,7 +116,7 @@ plt.gca().yaxis.set_major_formatter(FuncFormatter(lambda valor, _: f'{valor:.3f}
 for barra in barras:
     yval = barra.get_height()
     # Adicionando um pequeno offset multiplicativo por causa da escala logarítmica
-    plt.text(barra.get_x() + barra.get_width()/2, yval * 1.1, f'{yval:.6f}s', 
+    plt.text(barra.get_x() + barra.get_width()/2, yval * 1.1, f'{yval:.6f}s',
              ha='center', va='bottom', fontsize=11, fontweight='bold')
 
 # 5. Adicionando a anotação "25.65x Faster"
@@ -133,6 +137,6 @@ plt.tight_layout()
 plt.savefig('grafico_cpu_vs_gpu.png', dpi=300)
 print("Gráfico salvo como 'grafico_cpu_vs_gpu.png'")
 plt.show()
-````
+```
 
-Baixando a biblioteca matplotlib com `pip install matplotlib` e executando o codigo, e retornado o grafico
+Baixando a biblioteca matplotlib com `pip install matplotlib` e executando o código, é retornado o gráfico.
