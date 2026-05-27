@@ -70,11 +70,11 @@ nvcc sorts_cpu_gpu.cu -o sorts_cpu_gpu
 
 Desenvolvido por **Joel Carlos** e **Bryan Cruz**
 
-* LinkedIn Joel: [www.linkedin.com/in/joelcarlosassuncaopadilha]()
-* GitHub Joel: https://github.com/joelcarlos-png
+* LinkedIn Joel: [www.linkedin.com/in/joelcarlosassuncaopadilha](https://www.linkedin.com/in/joelcarlosassuncaopadilha/)
+* GitHub Joel: [https://github.com/joelcarlos-png](https://github.com/joelcarlos-png)
 * =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-* LinkedIn Bryan: [www.linkedin.com/in/bryanmarquescruz/]()
-* GitHub Bryan: [https://github.com/bryantlanta-alt]()
+* LinkedIn Bryan: [www.linkedin.com/in/bryanmarquescruz](https://www.linkedin.com/in/bryanmarquescruz/)
+* GitHub Bryan: [https://github.com/bryantlanta-alt](https://github.com/bryantlanta-alt)
 
 ---
 
